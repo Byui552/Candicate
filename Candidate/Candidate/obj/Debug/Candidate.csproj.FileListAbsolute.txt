@@ -1,0 +1,16 @@
+D:\BP\LTW\lab7.1\Candidate\Candidate\bin\Debug\Candidate.exe.config
+D:\BP\LTW\lab7.1\Candidate\Candidate\bin\Debug\Candidate.exe
+D:\BP\LTW\lab7.1\Candidate\Candidate\bin\Debug\Candidate.pdb
+D:\BP\LTW\lab7.1\Candidate\Candidate\bin\Debug\EntityFramework.dll
+D:\BP\LTW\lab7.1\Candidate\Candidate\bin\Debug\EntityFramework.SqlServer.dll
+D:\BP\LTW\lab7.1\Candidate\Candidate\bin\Debug\EntityFramework.xml
+D:\BP\LTW\lab7.1\Candidate\Candidate\bin\Debug\EntityFramework.SqlServer.xml
+D:\BP\LTW\lab7.1\Candidate\Candidate\obj\Debug\Candidate.csproj.AssemblyReference.cache
+D:\BP\LTW\lab7.1\Candidate\Candidate\obj\Debug\Candidate.Properties.Resources.resources
+D:\BP\LTW\lab7.1\Candidate\Candidate\obj\Debug\Candidate.csproj.GenerateResource.cache
+D:\BP\LTW\lab7.1\Candidate\Candidate\obj\Debug\Candidate.csproj.CoreCompileInputs.cache
+D:\BP\LTW\lab7.1\Candidate\Candidate\obj\Debug\Candidate.csproj.CopyComplete
+D:\BP\LTW\lab7.1\Candidate\Candidate\obj\Debug\Candidate.exe
+D:\BP\LTW\lab7.1\Candidate\Candidate\obj\Debug\Candidate.pdb
+D:\BP\LTW\lab7.1\Candidate\Candidate\obj\Debug\Candidate.FindUV.resources
+D:\BP\LTW\lab7.1\Candidate\Candidate\obj\Debug\Candidate.TTUV.resources
