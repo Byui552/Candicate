@@ -39,10 +39,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnUpd = new System.Windows.Forms.Button();
             this.btnDel = new System.Windows.Forms.Button();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.ckSkill = new System.Windows.Forms.CheckedListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvTTUV = new System.Windows.Forms.DataGridView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.chứcNăngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiFind = new System.Windows.Forms.ToolStripMenuItem();
@@ -52,7 +52,7 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTTUV)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -147,19 +147,19 @@
             this.btnDel.Text = "Xoá";
             this.btnDel.UseVisualStyleBackColor = true;
             // 
-            // checkedListBox1
+            // ckSkill
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
+            this.ckSkill.FormattingEnabled = true;
+            this.ckSkill.Items.AddRange(new object[] {
             "C#",
             "Java",
             "Spring Boot (Java)",
             "Python",
             "HTML, CSS, Javascript"});
-            this.checkedListBox1.Location = new System.Drawing.Point(193, 259);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(178, 89);
-            this.checkedListBox1.TabIndex = 11;
+            this.ckSkill.Location = new System.Drawing.Point(193, 259);
+            this.ckSkill.Name = "ckSkill";
+            this.ckSkill.Size = new System.Drawing.Size(178, 89);
+            this.ckSkill.TabIndex = 11;
             // 
             // groupBox1
             // 
@@ -188,24 +188,24 @@
             this.label5.TabIndex = 13;
             this.label5.Text = "Quản lý thông tin hồ sơ ứng viên";
             // 
-            // dataGridView1
+            // dgvTTUV
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvTTUV.AllowUserToAddRows = false;
+            this.dgvTTUV.AllowUserToDeleteRows = false;
+            this.dgvTTUV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTTUV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column3,
             this.Column4,
             this.Column5});
-            this.dataGridView1.Location = new System.Drawing.Point(426, 55);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(712, 360);
-            this.dataGridView1.TabIndex = 14;
+            this.dgvTTUV.Location = new System.Drawing.Point(426, 55);
+            this.dgvTTUV.Name = "dgvTTUV";
+            this.dgvTTUV.ReadOnly = true;
+            this.dgvTTUV.RowHeadersWidth = 51;
+            this.dgvTTUV.RowTemplate.Height = 24;
+            this.dgvTTUV.Size = new System.Drawing.Size(712, 360);
+            this.dgvTTUV.TabIndex = 14;
             // 
             // menuStrip1
             // 
@@ -279,9 +279,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1130, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvTTUV);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.checkedListBox1);
+            this.Controls.Add(this.ckSkill);
             this.Controls.Add(this.btnDel);
             this.Controls.Add(this.btnUpd);
             this.Controls.Add(this.label2);
@@ -293,7 +293,7 @@
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTTUV)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -314,10 +314,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnUpd;
         private System.Windows.Forms.Button btnDel;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.CheckedListBox ckSkill;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvTTUV;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem chứcNăngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tsmiFind;

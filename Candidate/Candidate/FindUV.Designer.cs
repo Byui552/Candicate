@@ -33,18 +33,18 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.cmbVTUT = new System.Windows.Forms.ComboBox();
+            this.dgvFindUV = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtMinEX = new System.Windows.Forms.TextBox();
+            this.txtSalary2 = new System.Windows.Forms.TextBox();
+            this.txtSkill = new System.Windows.Forms.TextBox();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvFindUV)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,42 +93,42 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Skill";
             // 
-            // comboBox1
+            // cmbVTUT
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmbVTUT.FormattingEnabled = true;
+            this.cmbVTUT.Items.AddRange(new object[] {
             "Senior Full Stack Developer c#",
             "Chuyên viên lập trình Web (ReactJS, JavaScript, HTML, CSS)",
             "Fresher Backend Engineer (Java)"});
-            this.comboBox1.Location = new System.Drawing.Point(173, 39);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(263, 24);
-            this.comboBox1.TabIndex = 5;
+            this.cmbVTUT.Location = new System.Drawing.Point(173, 39);
+            this.cmbVTUT.Name = "cmbVTUT";
+            this.cmbVTUT.Size = new System.Drawing.Size(263, 24);
+            this.cmbVTUT.TabIndex = 5;
             // 
-            // dataGridView1
+            // dgvFindUV
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvFindUV.AllowUserToAddRows = false;
+            this.dgvFindUV.AllowUserToDeleteRows = false;
+            this.dgvFindUV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvFindUV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column3,
             this.Column4,
             this.Column5});
-            this.dataGridView1.Location = new System.Drawing.Point(173, 281);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(687, 157);
-            this.dataGridView1.TabIndex = 6;
+            this.dgvFindUV.Location = new System.Drawing.Point(173, 281);
+            this.dgvFindUV.Name = "dgvFindUV";
+            this.dgvFindUV.ReadOnly = true;
+            this.dgvFindUV.RowHeadersWidth = 51;
+            this.dgvFindUV.RowTemplate.Height = 24;
+            this.dgvFindUV.Size = new System.Drawing.Size(687, 157);
+            this.dgvFindUV.TabIndex = 6;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtSkill);
+            this.groupBox1.Controls.Add(this.txtSalary2);
+            this.groupBox1.Controls.Add(this.txtMinEX);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label5);
@@ -139,29 +139,29 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // textBox1
+            // txtMinEX
             // 
-            this.textBox1.Location = new System.Drawing.Point(214, 31);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 5;
+            this.txtMinEX.Location = new System.Drawing.Point(214, 31);
+            this.txtMinEX.Name = "txtMinEX";
+            this.txtMinEX.ReadOnly = true;
+            this.txtMinEX.Size = new System.Drawing.Size(100, 22);
+            this.txtMinEX.TabIndex = 5;
             // 
-            // textBox2
+            // txtSalary2
             // 
-            this.textBox2.Location = new System.Drawing.Point(214, 68);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 6;
+            this.txtSalary2.Location = new System.Drawing.Point(214, 68);
+            this.txtSalary2.Name = "txtSalary2";
+            this.txtSalary2.ReadOnly = true;
+            this.txtSalary2.Size = new System.Drawing.Size(100, 22);
+            this.txtSalary2.TabIndex = 6;
             // 
-            // textBox3
+            // txtSkill
             // 
-            this.textBox3.Location = new System.Drawing.Point(214, 99);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 7;
+            this.txtSkill.Location = new System.Drawing.Point(214, 99);
+            this.txtSkill.Name = "txtSkill";
+            this.txtSkill.ReadOnly = true;
+            this.txtSkill.Size = new System.Drawing.Size(100, 22);
+            this.txtSkill.TabIndex = 7;
             // 
             // Column1
             // 
@@ -208,14 +208,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1152, 450);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.dgvFindUV);
+            this.Controls.Add(this.cmbVTUT);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Name = "FindUV";
             this.Text = "FindUV";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvFindUV)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -230,16 +230,16 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.ComboBox cmbVTUT;
+        private System.Windows.Forms.DataGridView dgvFindUV;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSkill;
+        private System.Windows.Forms.TextBox txtSalary2;
+        private System.Windows.Forms.TextBox txtMinEX;
     }
 }
