@@ -1,0 +1,12 @@
+D:\tai lieu\Winform LT\BT hang tuan\5-10-2023\BT Nhom\Candicate\Candidate\DAL\bin\Debug\DAL.dll.config
+D:\tai lieu\Winform LT\BT hang tuan\5-10-2023\BT Nhom\Candicate\Candidate\DAL\bin\Debug\DAL.dll
+D:\tai lieu\Winform LT\BT hang tuan\5-10-2023\BT Nhom\Candicate\Candidate\DAL\bin\Debug\DAL.pdb
+D:\tai lieu\Winform LT\BT hang tuan\5-10-2023\BT Nhom\Candicate\Candidate\DAL\bin\Debug\EntityFramework.dll
+D:\tai lieu\Winform LT\BT hang tuan\5-10-2023\BT Nhom\Candicate\Candidate\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\tai lieu\Winform LT\BT hang tuan\5-10-2023\BT Nhom\Candicate\Candidate\DAL\bin\Debug\EntityFramework.xml
+D:\tai lieu\Winform LT\BT hang tuan\5-10-2023\BT Nhom\Candicate\Candidate\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\tai lieu\Winform LT\BT hang tuan\5-10-2023\BT Nhom\Candicate\Candidate\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\tai lieu\Winform LT\BT hang tuan\5-10-2023\BT Nhom\Candicate\Candidate\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\tai lieu\Winform LT\BT hang tuan\5-10-2023\BT Nhom\Candicate\Candidate\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\tai lieu\Winform LT\BT hang tuan\5-10-2023\BT Nhom\Candicate\Candidate\DAL\obj\Debug\DAL.dll
+D:\tai lieu\Winform LT\BT hang tuan\5-10-2023\BT Nhom\Candicate\Candidate\DAL\obj\Debug\DAL.pdb

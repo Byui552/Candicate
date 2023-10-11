@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BLL;
+using DAL.Models;
 
 namespace Candidate
 {
@@ -19,8 +21,8 @@ namespace Candidate
 
         private void tsmiFind_Click(object sender, EventArgs e)
         {
-            TTUV ttuv = new TTUV();
-            ttuv.Show();
+            FindUV ttuv = new FindUV();
+            ttuv.ShowDialog();
         }
     }
 }
