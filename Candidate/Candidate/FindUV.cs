@@ -29,16 +29,16 @@ namespace Candidate
 
         private void FindUV_Load(object sender, EventArgs e)
         {
-            comboBox1.DataSource = jobServices.GetAllJob();
-            comboBox1.DisplayMember = "JobTitle";
-            comboBox1.ValueMember = "JobId";
+            cmbVTUT.DataSource = jobServices.GetAllJob();
+            cmbVTUT.DisplayMember = "JobTitle";
+            cmbVTUT.ValueMember = "JobId";
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void cmbVTUT_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
             {
-                Job j = comboBox1.SelectedItem as Job;
+                Job j = cmbVTUT.SelectedItem as Job;
                 if (j.RequiredExperience != null)
                     txtMinEX.Text = j.RequiredExperience.ToString();
                 else
@@ -75,7 +75,7 @@ namespace Candidate
         private void button1_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
-            saveFileDialog.Filter = "Excel Files|*.xlsx| All |*.*";
+            saveFileDialog.Filter = "Excel Files|*.xlsx";
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
                 ToExcel(saveFileDialog.FileName);

@@ -18,15 +18,31 @@ namespace BLL
         public List<CandidateSkill> GetCandidateSkills(int SkillNo, int ExperimentYear, int ExpectedSalary)
         {
             Model1 db = new Model1();
-            var temp = db.CandidateSkills.Where(p => p.SkillNo == SkillNo).ToList();
-            foreach (CandidateSkill skill in temp) 
+            List<CandidateSkill> temp = db.CandidateSkills.Where(p => p.SkillNo == SkillNo).ToList();
+            for (int i = 0; i < temp.Count; i++)
             {
-                if (skill.Candidate.WorkExperienceYear < ExperimentYear && skill.Candidate.ExpectedSalary > ExpectedSalary)
+                if (temp[i].Candidate.WorkExperienceYear == null)
                 {
-                    temp.Remove(skill);
+                    temp[i].Candidate.WorkExperienceYear = 0;
+                }
+                if (temp[i].Candidate.ExpectedSalary == null)
+                {
+                    temp[i].Candidate.ExpectedSalary = 0;
                 }
             }
-            return temp;
+            List<CandidateSkill> listCandidate = new List<CandidateSkill>();
+            foreach (CandidateSkill skill in temp)
+            {
+                if (ExpectedSalary == 0 && skill.Candidate.WorkExperienceYear >= ExperimentYear)
+                {
+                    listCandidate.Add(skill);
+                }
+                else if (skill.Candidate.WorkExperienceYear >= ExperimentYear && skill.Candidate.ExpectedSalary <= ExpectedSalary)
+                {
+                    listCandidate.Add(skill);
+                }
+            }
+            return listCandidate;
         }
     }
 }

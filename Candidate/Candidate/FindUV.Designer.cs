@@ -43,7 +43,7 @@
             this.txtSkill = new System.Windows.Forms.TextBox();
             this.txtSalary2 = new System.Windows.Forms.TextBox();
             this.txtMinEX = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbVTUT = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFindUV)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -61,7 +61,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(50, 259);
+            this.label2.Location = new System.Drawing.Point(50, 228);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(111, 16);
             this.label2.TabIndex = 1;
@@ -98,6 +98,7 @@
             // 
             this.dgvFindUV.AllowUserToAddRows = false;
             this.dgvFindUV.AllowUserToDeleteRows = false;
+            this.dgvFindUV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvFindUV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvFindUV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -105,12 +106,12 @@
             this.Column3,
             this.Column4,
             this.Column5});
-            this.dgvFindUV.Location = new System.Drawing.Point(99, 281);
+            this.dgvFindUV.Location = new System.Drawing.Point(48, 247);
             this.dgvFindUV.Name = "dgvFindUV";
             this.dgvFindUV.ReadOnly = true;
             this.dgvFindUV.RowHeadersWidth = 51;
             this.dgvFindUV.RowTemplate.Height = 24;
-            this.dgvFindUV.Size = new System.Drawing.Size(877, 157);
+            this.dgvFindUV.Size = new System.Drawing.Size(975, 191);
             this.dgvFindUV.TabIndex = 6;
             // 
             // Column1
@@ -119,7 +120,6 @@
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
-            this.Column1.Width = 125;
             // 
             // Column2
             // 
@@ -127,7 +127,6 @@
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
-            this.Column2.Width = 125;
             // 
             // Column3
             // 
@@ -135,7 +134,6 @@
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
-            this.Column3.Width = 125;
             // 
             // Column4
             // 
@@ -143,7 +141,6 @@
             this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
-            this.Column4.Width = 125;
             // 
             // Column5
             // 
@@ -151,7 +148,6 @@
             this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
-            this.Column5.Width = 125;
             // 
             // groupBox1
             // 
@@ -163,7 +159,7 @@
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Location = new System.Drawing.Point(172, 88);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(670, 175);
+            this.groupBox1.Size = new System.Drawing.Size(670, 138);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
@@ -192,14 +188,15 @@
             this.txtMinEX.Size = new System.Drawing.Size(100, 22);
             this.txtMinEX.TabIndex = 5;
             // 
-            // comboBox1
+            // cmbVTUT
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(172, 45);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(314, 24);
-            this.comboBox1.TabIndex = 8;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.cmbVTUT.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbVTUT.FormattingEnabled = true;
+            this.cmbVTUT.Location = new System.Drawing.Point(172, 45);
+            this.cmbVTUT.Name = "cmbVTUT";
+            this.cmbVTUT.Size = new System.Drawing.Size(314, 24);
+            this.cmbVTUT.TabIndex = 8;
+            this.cmbVTUT.SelectedIndexChanged += new System.EventHandler(this.cmbVTUT_SelectedIndexChanged);
             // 
             // button1
             // 
@@ -217,7 +214,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1152, 450);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbVTUT);
             this.Controls.Add(this.dgvFindUV);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -250,7 +247,7 @@
         private System.Windows.Forms.TextBox txtSkill;
         private System.Windows.Forms.TextBox txtSalary2;
         private System.Windows.Forms.TextBox txtMinEX;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbVTUT;
         private System.Windows.Forms.Button button1;
     }
 }

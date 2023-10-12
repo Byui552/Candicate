@@ -16,7 +16,7 @@ namespace Candidate
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FindUV());
+            Application.Run(new TTUV());
         }
     }
 }
